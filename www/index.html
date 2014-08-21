@@ -17,12 +17,13 @@
   <script src='cordova.js'></script> 
   <script src='xhr.js'></script>
   <script type="text/javascript">
-    /* This code is used to run as soon as Intel activates */
-    var onDeviceReady=function(){
-      //hide splash screen
-      intel.xdk.device.hideSplashScreen();
+    var onDeviceReady=function(){                             // called when Cordova is ready
+        if( window.Cordova && navigator.splashscreen ) {     // Cordova API detected
+            navigator.splashscreen.hide() ;                 // hide splash screen
+        }
     };
-    document.addEventListener("intel.xdk.device.ready",onDeviceReady,false);
+
+       document.addEventListener("deviceready", onDeviceReady, false) ;
   </script>
   <script type="application/javascript" src="app_framework/appframework.min.js"></script>
   <script type="application/javascript" src="app_framework/appframework.ui.min.js"></script>
