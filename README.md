@@ -52,10 +52,10 @@ App Framework (formerly jQ.Mobi)
 * source:  https://github.com/01org/appframework
 * license: https://github.com/01org/appframework/blob/master/license.txt
 
-Video (Amazing nature in Time Lapse-YouTube)
+Video (Think you know Intel? Think again.-YouTube)
 -----------------------------------------------------------------------------
-*source:  https://www.youtube.com/watch?v=PPcnL8d5wcM
-*license: http://www.youtube.com/yt/copyright/creative-commons.html
+*source:  https://www.youtube.com/watch?v=JIu16I-D3GM
+*license: https://www.youtube.com/static?template=terms (Youtube Standard License)
 
 Video (3 years of filming nature-vimeo)
 -----------------------------------------------------------------------------
