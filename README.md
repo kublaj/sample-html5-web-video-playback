@@ -1,29 +1,26 @@
-PhoneGap Audio
--------------------------------------------
-This sample application demonstrates the use of the PhoneGap media object APIs 
-for audio recording and playback. 
+Web Video Playback
+=========================
+This sample contains embedded videos from Youtube, Vimeo and the local directory.
 
 Intel(R) XDK
 -------------------------------------------
 This sample is part of the Intel(R) XDK. 
 Download the Intel XDK at http://software.intel.com/en-us/html5.
 To see the technical detail of the sample, please visit the sample article page 
-at http://software.intel.com/en-us/articles/media-sample-using-phonegap. 
+at http://software.intel.com/en-us/html5/articles/developing-with-web-video-elements-using-intel-xdk. 
 
 Application Files
 -----------------
 * app.json
 * icon.png
 * index.html
-* README.md
-* LICENSE
-* screenshot.png
-* css/main.css
-* js/deviceCheck.js
-* js/mediaHandlers
+* readme.md
+* app_framework/
+* css/
+* videos/
 
 
-Copyright (c) 2014, Intel Corporation. All rights reserved.
+Copyright (c) 2013, Intel Corporation. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, 
 are permitted provided that the following conditions are met:
@@ -54,17 +51,17 @@ App Framework (formerly jQ.Mobi)
 -----------------------------------------------------------------------------
 * source:  https://github.com/01org/appframework
 * license: https://github.com/01org/appframework/blob/master/license.txt
- 
-Images
+
+Video (Think you know Intel? Think again.-YouTube)
 -----------------------------------------------------------------------------
-*simplemicrophone.png
-*simplemicrophone_rec.png
-all images are created by Intel Corp.
+*source:  https://www.youtube.com/watch?v=JIu16I-D3GM
+*license: https://www.youtube.com/static?template=terms (Youtube Standard License)
 
-Cordova (PhoneGap) Library
---------------------------
-* cordova.js (cordova-2.0.0.js)
+Video (3 years of filming nature-vimeo)
+-----------------------------------------------------------------------------
+*source:  http://vimeo.com/83968874
+*license: http://creativecommons.org/licenses/by/3.0/
 
-* source:  http://www.phonegap.com/
-* license:  http://www.apache.org/licenses/LICENSE-2.0.html
-
+Video (appdesigner-gettingstarted.mp4)
+-----------------------------------------------------------------------------
+Video are created by Intel Corp.
