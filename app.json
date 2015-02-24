@@ -1,5 +1,5 @@
 {
-"reponame":"sample-html5-web-video-playback",
+"repoName":"sample-html5-web-video-playback",
 "title":"Web Video Playback",
 "abbr":"Web Video P/B",
 "tooltip":"[App Designer Ready] This sample contains embedded videos from Youtube, Vimeo and the local directory.",
@@ -10,7 +10,6 @@
 "highlights" : ["App Designer", "Video Playback"],
 "apppreview":"true",
 "appname":"demo.webvideoplayback",
-"relname":"4.0.0",
 "type":"appdesigner",
 "projectTypeName": "com.intel.xdk.projecttype.webapp"
 }

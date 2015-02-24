@@ -1,16 +1,20 @@
 Web Video Playback
-=========================
+==================
+
+See [LICENSE.md](<LICENSE.md>) for license terms and conditions.
+
 This sample contains embedded videos from Youtube, Vimeo and the local directory.
 
-Intel(R) XDK
--------------------------------------------
-This sample is part of the Intel(R) XDK. 
-Download the Intel XDK at http://software.intel.com/en-us/html5.
-To see the technical detail of the sample, please visit the sample article page 
-at http://software.intel.com/en-us/html5/articles/developing-with-web-video-elements-using-intel-xdk. 
+### Intel(R) XDK
 
-Application Files
------------------
+This sample is part of the Intel XDK.
+Download the Intel XDK at <http://xdk.intel.com>.
+
+To see the technical detail of the sample, please visit the sample article page
+at <http://software.intel.com/en-us/html5/articles/developing-with-web-video-elements-using-intel-xdk>.
+
+### Application Files
+
 * app.json
 * icon.png
 * index.html
@@ -20,48 +24,51 @@ Application Files
 * videos/
 
 
-Copyright (c) 2013, Intel Corporation. All rights reserved.
+Additional Notes from Blank App Designer Template
+=================================================
 
-Redistribution and use in source and binary forms, with or without modification, 
-are permitted provided that the following conditions are met:
+Use this template as a starting point for an Intel XDK App Designer project that
+will be distributed as a *packaged mobile web app*. The file named `init-dev.js`
+included as part of this project contains init code that generates an
+`app.Ready` event; which is used as a way to normalize how App Designer starts
+its own code. This technique allows App Designer to use a standard init sequence
+regardless of the specific package type (a *packaged web app* or a *Cordova web
+app*).
 
-- Redistributions of source code must retain the above copyright notice, 
-  this list of conditions and the following disclaimer.
+The `icon.png` and `screenshot.png` files are not required by your project. They
+are included for use by the Intel XDK template/demo panel and have no use within
+a real app. You can safely delete them from your project directory.
 
-- Redistributions in binary form must reproduce the above copyright notice, 
-  this list of conditions and the following disclaimer in the documentation 
-  and/or other materials provided with the distribution.
+You can build a *packaged Cordova web app* from this template that can be
+submitted to a store using the "Cordova Hybrid Mobile App Platforms” build tiles
+(for Crosswalk, Android, iOS and Windows). The `intelxdk.config.additions.xml`
+file can be used to include options that control your *packaged Cordova web app*
+builds. For example, you can set the splash screen display time for a packaged
+Android or Crosswalk Cordova app using this file.
 
-- Neither the name of Intel Corporation nor the names of its contributors 
-  may be used to endorse or promote products derived from this software 
-  without specific prior written permission.
+Do not be alarmed if you see a "*Failed to load resource:
+net::ERR\_FILE\_NOT\_FOUND*" message caused by the `cordova.js` script in your
+`index.html` file. The `cordova.js` script is *only required* if you choose to
+convert your "Standard HTML5 Project" into a "Standard HTML5 + Cordova Project."
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, 
-THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
-ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE 
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE 
-GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
-HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT 
-LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT 
-OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+You can:
 
-App Framework (formerly jQ.Mobi)
------------------------------------------------------------------------------
-* source:  https://github.com/01org/appframework
-* license: https://github.com/01org/appframework/blob/master/license.txt
+-   safely ignore the "*Failed to load resource: net::ERR\_FILE\_NOT\_FOUND*"
+    error message
 
-Video (Think you know Intel? Think again.-YouTube)
------------------------------------------------------------------------------
-*source:  https://www.youtube.com/watch?v=JIu16I-D3GM
-*license: https://www.youtube.com/static?template=terms (Youtube Standard License)
+or
 
-Video (3 years of filming nature-vimeo)
------------------------------------------------------------------------------
-*source:  http://vimeo.com/83968874
-*license: http://creativecommons.org/licenses/by/3.0/
+-   comment out this script line if you will not be converting your project into
+    a Cordova app that uses Cordova APIs.
 
-Video (appdesigner-gettingstarted.mp4)
------------------------------------------------------------------------------
-Video are created by Intel Corp.
+The `cordova.js` script will be needed if you choose to convert your project to
+a *Cordova project* and enhance your app with Cordova APIs. It is not required
+to build a *Cordova packaged web app* for distribution via the Android, iOS and
+Windows stores *if that app does not utilize Cordova APIs*.
+
+This blank template does not require any Cordova APIs. If you would like to add
+Cordova APIs to your application (via Cordova plugins) you must first convert
+your project into a Cordova project. You can do this by clicking the Cordova
+icon in the *Project Info* section on the **Projects** tab. Or, you can create a
+new Cordova project using a Cordova blank template or a Cordova demo or sample
+app as a starting point.
